@@ -1,0 +1,4 @@
+require 'huginn_agent'
+
+#HuginnAgent.load 'huginn_the_division_2_server_status_agent/concerns/my_agent_concern'
+HuginnAgent.register 'huginn_the_division_2_server_status_agent/the_division_2_server_status_agent'
