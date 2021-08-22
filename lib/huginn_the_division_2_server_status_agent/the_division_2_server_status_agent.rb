@@ -18,19 +18,20 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-        {
-          "AppID ": "6c6b8cd7-d901-4cd5-8279-07ba92088f06",
-          "MDM": "18229",
-          "SpaceID": "60859c37-949d-49e2-8fc8-6d8dc40f1a9e",
-          "Category": "Instance",
-          "Name": "The Division 2 - PC - LIVE",
-          "Platform": "PC",
-          "Status": "Online",
-          "Maintenance": null,
-          "ImpactedFeatures": [
-       
-          ]
-        }
+
+          {
+            "AppID ": "6c6b8cd7-d901-4cd5-8279-07ba92088f06",
+            "MDM": "18229",
+            "SpaceID": "60859c37-949d-49e2-8fc8-6d8dc40f1a9e",
+            "Category": "Instance",
+            "Name": "The Division 2 - PC - LIVE",
+            "Platform": "PC",
+            "Status": "Online",
+            "Maintenance": null,
+            "ImpactedFeatures": [
+         
+            ]
+          }
     MD
 
     def default_options
